@@ -1,0 +1,41 @@
+.recipes {
+    border-style: solid;
+    border-width: 4px;
+    border-color:rgb(82, 82, 255);
+    background-color: rgb(125, 255, 255);
+    width: 300px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    font-style:normal;
+    font-size: 3rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-stretch:extra-expanded;
+}
+.desp{
+    border-style: solid;
+    border-width: 2px;
+    border-color:black;
+    background-color:blanchedalmond;
+    width: 300px;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+    font-style: italic;
+    font-family:cursive;
+}
+.row {
+    display: flex;
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+  h2{
+      text-align: center;
+  }
